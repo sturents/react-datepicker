@@ -9,13 +9,6 @@
   "module": "es",
   "unpkg": "dist/react-datepicker.min.js",
   "style": "dist/react-datepicker.min.css",
-  "files": [
-    "*.md",
-    "dist",
-    "lib",
-    "es",
-    "src/stylesheets"
-  ],
   "keywords": [
     "react",
     "datepicker",

@@ -615,9 +615,7 @@ export default class Calendar extends React.Component {
           className="react-datepicker__month-container"
         >
           {!this.props.showMonthYearPicker
-            ? this.props.renderCustomHeader
-              ? this.renderCustomHeader({ monthDate, i })
-              : this.renderDefaultHeader({ monthDate, i })
+            ? this.renderDefaultHeader({ monthDate, i })
             : this.renderYearHeader({ monthDate, i })}
           <Month
             onChange={this.changeMonthYear}

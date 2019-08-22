@@ -578,6 +578,8 @@ export default class Calendar extends React.Component {
           changeYear: this.changeYear,
           decreaseMonth: this.decreaseMonth,
           increaseMonth: this.increaseMonth,
+          decreaseYear: this.decreaseYear,
+          increaseYear: this.increaseYear,
           prevMonthButtonDisabled,
           nextMonthButtonDisabled
         })}

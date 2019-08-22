@@ -618,9 +618,7 @@ export default class Calendar extends React.Component {
             ? this.props.renderCustomHeader
               ? this.renderCustomHeader({ monthDate, i })
               : this.renderDefaultHeader({ monthDate, i })
-            : this.props.renderCustomHeader
-              ? this.renderCustomHeader({ monthDate, i })
-              : this.renderYearHeader({ monthDate, i })}
+            : this.renderYearHeader({ monthDate, i })}
           <Month
             onChange={this.changeMonthYear}
             day={monthDate}
